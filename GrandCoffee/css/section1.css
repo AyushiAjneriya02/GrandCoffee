@@ -1,0 +1,47 @@
+.section1{
+    height: 90vh;
+    width: 100%; 
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.slider{
+  display: flex;
+}
+.slide{
+    height: 60vh;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+    margin: 6em  0px 1em 6em;
+    padding: 3em;
+}
+.slide h1{
+    font-size: 4em;
+    font-weight: lighter;
+    
+}
+
+.slide h2{
+    font-size: 4em;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 10px 10px 7px rgb(12, 12, 12);
+}
+.slide p{
+    padding: 15px;
+    color: white;
+}
+.slide .btn{
+    padding: 12px 30px ;
+    margin: 15px;
+    font-size: 1em;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    outline: none;
+}
+.slide .btn:hover{
+ background-color: rgb(253, 101, 0);
+ border-color: rgb(253, 101, 0);
+ transition: .5s ease-in-out;
+}

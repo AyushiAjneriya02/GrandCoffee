@@ -1,0 +1,58 @@
+.section3{
+    height: 230vh;
+    width: 100%;
+}
+
+.head{
+    height: 180px;
+    width: 100%;
+    padding: 1em;
+    justify-content: center;
+    text-align: center;
+}
+.head h1{
+    font-size: 2.3em;
+    font-weight: bolder;
+    color: rgb(253, 101, 0);
+    margin-bottom: .6em;
+    margin-top: .5em;
+}
+.head p{
+    font-size: 1em;
+    padding: 15px 5px;
+    color: gray;
+}
+.gimg{
+    width: 90%;
+    margin: 2em 1em .8em 7.5em;
+    align-items: center;
+    justify-content: center;
+}
+.gimg img{
+    height: 360px;
+    width: 360px;
+    padding:  1em .8em ;
+    border-radius: 10px;
+}
+.gimg img:hover{
+    color: #000;
+    opacity: 40%;
+}
+.btn{
+    justify-content: center;
+}
+.btn button{
+    padding: 12px 30px;
+    margin: 5px 3em 2em 33em;
+    font-size: 1em;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    outline: none;
+}
+.btn button:hover{
+    background-color: rgb(253, 101, 0);
+ border-color: rgb(253, 101, 0);
+ transition: .5s ease-in-out;
+}
+
+

@@ -1,0 +1,76 @@
+.section5{
+    height: 110vh;
+    width: 100%;
+   background-color: cornsilk;
+}
+.section5 .ht{
+    height: 20vh;
+    width: 100%;
+    padding: 2em 0em;
+    text-align: center;
+    justify-content: center;
+}
+.section5 .ht h1{
+    font-size: 2.5em;
+    padding: 20px 13px;
+    text-transform:capitalize;
+    font-weight: bolder;
+    color: rgb(253, 101, 0);
+}
+.form {
+    height: 80vh;
+    width: 70%;
+    margin-left: 15em;
+    justify-content: center;
+    align-items: center;
+   background-image: url(../images/img-4.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+  box-shadow:  15px 15px 9px black;
+}
+.form form{
+    width: 50%;
+    height: 80vh;
+    background-color: transparent;
+    padding:  2.5em;
+    color: white;
+   
+}
+.form form legend{
+  padding:0  10px;
+  margin: 0px 10px 10px 10px  ;
+  font-size: 2em;
+  font-weight: bolder;
+  text-shadow: 3px 3px 5px black;
+}
+.form form label{
+    padding: 1px;
+    margin: 1px;
+}
+.form form label,input{
+   display: block;
+}
+.form form input{
+   background-color: transparent;
+   border-color: transparent;
+   border-bottom: 2px solid white;
+   margin-bottom: 5px;
+   color: white;
+   
+}
+.form form input:focus{
+    border: transparent;
+    outline: none;
+    border-bottom: 2px solid white;
+    background-color: tra;
+}
+
+.form form button{
+    padding: 3px 10px;
+    background-color: black;
+    margin: 30px 10px;
+}
+.form form button input{
+    color: white;
+    border: none;
+}

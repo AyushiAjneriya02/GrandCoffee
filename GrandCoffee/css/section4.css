@@ -1,0 +1,81 @@
+.section4{
+    height: 90vh;
+    width: 100%;
+    background-image: url(../images/services-bg.png);
+    position: relative;
+    background-attachment: fixed;
+   
+}
+.main .tp{
+    height: 25vh;
+    width: 100%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 3em;
+}
+.main .tp h1{
+    font-size: 2.5em;
+}
+.main .tp p{
+    font-size: .9em;
+}
+.main .card{
+    background-color: transparent;
+}
+.main .card .cover{
+    display: flex;
+    width: 96%;
+    color: #000;
+    margin-left: 3em;
+}
+.main .card .cover .part{
+   height: 230px;
+   width: 350px;
+   background-color: coral;
+   margin: 40px;
+   padding: 30px 20px;
+   justify-content: center;
+   text-align: center;
+   color: white;
+ 
+}
+.main .card .cover .part:hover{
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    color: #000;
+    transition: 2s ease-in linear;
+}
+.main .card .cover .part img{
+   height: 50px;
+   width: 50px;
+}
+.main .card .cover .part h1{
+font-size: 1.4em;
+font-weight: lighter;
+padding: 10px;
+}
+.main .card .cover .part p{
+font-size: .9em;
+padding: 10px 3px;
+
+}
+.main .card .cover .part .but{
+    padding: 8px 30px;
+    font-size: 1em;
+    background-color: rgb(46, 44, 44);
+    color: white;
+    outline: none;
+    visibility: hidden;
+}
+.main .card .cover .part:hover{
+    height: 300px;
+    width: 350px;
+    background-color:white;
+    color: #000;
+    transition: 2s ease-in linear;
+    .but{
+        visibility:visible;
+    }
+}
